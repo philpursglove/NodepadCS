@@ -143,6 +143,7 @@
     </Compile>
     <Compile Include="INoteRepository.cs" />
     <Compile Include="Models\Note.cs" />
+    <Compile Include="MongoNoteRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -193,10 +194,10 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Notes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Notes\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
